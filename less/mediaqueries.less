@@ -1,0 +1,592 @@
+/* ==|== media queries ======================================================
+   ========================================================================== */
+
+
+/* mes resolutions responsives "classiques" */
+@media (max-width: 1660px) {
+	#menu {
+		ul {
+			padding-left: 41%;
+		}
+	}
+	#container {
+		> ul {
+			margin-left: 38%;
+		}
+	}
+	#presta {
+		li#mettre {
+			.presta-bloc {
+				.presta-bloc-dessus {
+					#group {
+						h4 {margin-top:25px;}
+					}
+				}
+			}
+		}
+	}
+	#header-txt	{
+		left: 40%;
+	}
+}
+
+
+@media (max-width: 1430px) {
+	#menu {
+		ul {
+			padding-left: 45%;
+		}
+	}
+	#container {
+		> ul {
+			margin-left: 41%;
+			width: 45%;
+		}
+	}
+	#presta {
+		li {
+			width: 97%;
+		}
+	}
+	#header-txt	{
+		left: 44%;
+	}
+	#big-btn{
+		width: 67%;
+	}
+}
+
+@media (max-width: 1150px) {
+	#menu {
+		ul {
+			padding-left: 38%;
+		}
+	}
+	#container {
+		> ul {
+			margin-left: 34%;
+			width: 50%;
+		}
+	}
+	#sidebar{
+		left: 14%;
+	}
+	#avatar{
+		left: 14.4%;
+	}
+	#header-txt	{
+		left: 37%;
+	}
+	#big-btn{
+		left: 12%;
+		width: 77%;
+	}
+
+	.page #presta, #missions  {
+		li {
+			width: 110%;
+		}
+		.contenu{
+			li{
+				width: auto;
+				float: none;
+				display: block;
+			}
+		}
+	}
+}
+
+
+
+@media (max-width: 979px) {
+	#menu {
+		ul {
+			padding-left: 38%;
+		}
+	}
+	#container {
+		> ul {
+			margin-left: 34%;
+			width: 59%;
+		}
+	}
+	#sidebar{
+		left: 8%;
+	}
+	#avatar{
+		left: 8.4%;
+	}
+	#header-txt	{
+		left: 37%;
+		h2{
+			font-size: 2.1em;
+		}
+	}
+	#big-btn{
+		left: 5%;
+		width: 90%;
+	}
+
+	.page #presta, #missions{
+		li {
+			width: 100%;
+		}
+	}
+
+	#missions{
+		h4 {
+			padding-left: 25px;
+			width: 66%;
+		}
+	}
+}
+
+
+@media (max-width: 850px) {
+	#avatar {
+		left: 6%;
+	}
+	#container {
+		padding-bottom: 50px;
+		h3 {
+			.minion-smbold(1.9em);
+		}
+		> ul {
+			margin-left: 30%;
+		}
+		.page &{
+			> ul > li {
+				background-position: 0 54px;
+			}
+		}
+	}
+	#menu {
+		ul {
+			padding-left: 36%;
+		}
+	}
+	#header-txt {
+		left: 32%;
+	}
+	#sidebar {
+		width: 150px;
+		li#apt {
+			img {
+				width: 122px;
+				height: 67px;
+			}
+		}
+		li#entreprises {
+			width: 100%;
+			h4 {
+				width: 100%;
+			}
+			img {
+				display: block;
+				margin: 0 auto;
+			}
+			img#jci {
+				margin: 0 auto;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	#social {
+		li {
+			span {
+				margin-left: 3px;
+				margin-right: 3px;
+			}
+		}
+	}
+	
+	#big-btn{
+		left: 0;
+		width: 100%;
+	}
+
+	/* @group mana */
+	.page {
+		#presta {
+			#group {
+				h4 {
+					margin-left: -30px;
+					width: 68%;
+				}
+				#cible, #com_int {
+					background-position: 11px 10px;
+				}
+				#charte, #fleche {
+					background-position: 11px 18px;
+				}
+				#chat {
+					background-position: 11px 19px;
+				}
+				#presse {
+					background-position: 11px 16px;
+				}
+			}
+		}
+	}
+	#missions {
+		#group {
+			h4 {
+				padding-left: 15px;
+			}
+		}
+	}
+}
+
+
+
+@media (max-width: 768px) {
+	/* @group hp */
+	body {
+		background-size: 100% 140px;
+		background-attachment: scroll;
+	}
+
+	#burger {
+		background: url('../layoutImg/burger.png') no-repeat;
+		height: 26px;
+		width: 30px;
+		position: absolute;
+		right: 20px;
+		top: 25px;
+		z-index: 100;
+		cursor: pointer;
+	}
+	#menu {
+		margin: 120px 0 0;
+		position: absolute;
+		z-index: 99;
+		display: block;
+		height: 250px;
+		top: 0;
+		ul {
+			padding-left: 0;
+			background-color: #16546e;
+			display: block;
+			margin-top: 0;
+		}
+		li {
+			width: 100%;
+			text-align: center;
+			padding: 15px 0;
+			&:first-child{
+				padding: 15px 0;
+			}
+		}
+		a {
+			.proxima(1.2em);
+			display: block;
+		}
+		.selected {
+			background-color: #a2dfff;
+		}
+		.page &{
+			transition: none;
+		}
+	}
+	#container {
+		padding: 0;
+		margin: 120px 0 45px;
+		overflow-x: hidden;
+		.page &{
+			margin: 120px 0 45px;
+		}
+		> ul {
+			margin-left: 4%;
+			width: 91%;
+			margin-top: 30px;
+			> li {
+				background-size: 25px 1px;
+				background-position: 0 23px;
+				padding: 0 0 0 35px;
+			}
+			
+		}
+		h3 {
+			.minion-smbold(1.8em);
+		}
+		.home &{
+			margin-top: 0;
+		}
+	}
+	
+	#sidebar {
+		position: static!important;
+		width: 100%;
+		margin: 0 auto;
+		padding-bottom: 30px;
+		clear: both;
+		ul {
+			width: 45%;
+			margin: 0 auto;
+			padding-top: 15px;
+		}
+		li#entreprises {
+			border-bottom: none;
+			display: block;
+			h4 {
+				display: block;
+			}
+			
+			a{
+				display: inline-block;
+				vertical-align: top;
+				margin: 0 5px;
+			}
+		}
+	}
+	#social {
+		ul {
+			border-top: solid 1px #e1e1e1;
+			width: 100%;
+		}
+		li {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		a {
+			.icon-linkedin {font-size:1.5em;}
+			.icon-twitter {font-size:1.5em;}
+			.icon-email {font-size:1.5em;}
+			span {
+				padding: 9px;
+			}
+		}
+		p {
+			display: none;
+		}
+	}
+	#avatar {
+		left: 8.4%;
+		top: 64px!important;
+		margin-top: -55px !important;
+		background-size: 190px 125px;
+		background-attachment: scroll;
+		position: absolute!important;
+		height: 95px;
+		#chc {
+			display: none;
+		}
+	}
+	#h1chc{
+		h1{
+			margin-top: 13px;
+			.page &{
+				margin-top: 13px;
+				font-size: 2.1em;
+				letter-spacing: 0.1em;
+				line-height: 0.9em;
+				padding: 0;
+			}
+		}
+	}
+	#header-txt	{
+		display: none;
+	}
+
+	#big-btn{
+		position: relative;
+		top: 0;
+		margin: 150px 0 20px;
+		height: auto;
+		li{
+			display: block;
+			width: 100%;
+			max-width: 400px;
+			margin: 0 auto 30px !important;
+		}
+		a{
+			min-height: initial;
+			padding-bottom: 100px;
+		}
+	}
+
+	#presta {
+		.mana &{
+			width: auto;
+		}
+		.contenu {
+			ul {
+				li {
+					background-position: 0px 12px;
+					background-size: 20px 1px;
+				}
+			}
+		}
+	}
+	li#compub-cp {
+		margin-left: 0;
+	}
+
+	li#missions{
+		padding-left: 30px;
+		width: auto;
+	}
+
+	li#contact{
+		display: block !important;
+		width: 220px;
+		margin: 50px auto 0;
+		padding: 0 0 90px !important;
+		&:before{
+			left: 15px;
+		}
+	}
+}
+
+
+@media (max-width: 600px) {
+	#container {
+		>ul > li {
+			background-position: 0 17px;
+			.page &{
+				background-position: 0 40px;
+			}
+		}
+		h3 {
+			font-size: 1.5em;
+		}
+	}
+	#presta {
+		box-sizing: border-box;
+		width: 107%;
+		ul {
+			margin-top: 0px;
+		}
+		li {
+			width: 100%;
+			&:before{
+				font-size: 1.9em;
+				left: 93%;
+				top: 20px !important;
+			}
+			&.ouvert{
+				&:before{
+					top: 0 !important;
+				}
+			}
+			&#mettre{
+				.presta-bloc-dessus, .presta-bloc{
+					height: 70px;
+				}
+			}
+		}
+		#group{
+			display: table;
+			div{
+				display: none !important;
+			}
+			h4{
+				display: table-cell;
+				.page &{
+					width: 100%;
+					padding-left: 20px;
+					font-size: 1.1em;
+					padding-right: 70px;
+				}
+			}
+		}
+		.mana &{
+			.presta-bloc-dessus, .presta-bloc span{
+				width: 106%;
+			}
+			.contenu{
+				width: 105%;
+			}
+		}
+		.contenu{
+			border: 0;
+			li{
+				margin-left: 10px;
+			}
+		}
+		.cp &{
+			li{
+				&:before{
+					left: 85%;
+				}
+			}
+			h4{
+				margin: 13px 0 25px 0px;
+				width: 80%;
+			}
+		}
+	}
+	li#missions{
+		#group{
+			a{
+				display: none;
+			}
+		}
+	}
+	#sidebar {
+		ul {
+			width: 75%;
+		}
+	}
+	#social {
+		li {
+			margin-left: 2px;
+			margin-right: 2px;
+		}
+	}
+
+	#missions{
+		> ul{
+			width: 106%;
+		}
+		#group{
+			width: 95%;
+			h4{
+				width: 100%;
+			}
+		}
+		#inver{
+			+ h4{
+				margin-top: 15px;
+			}
+		}
+		h4{
+			margin: 30px 0 0;
+		}
+		.contenu-missions{
+			border: 0;
+			p{
+				margin-left: 10px;
+			}
+			li{
+				margin: 0 0 0 10px;
+			}
+		}
+	}
+}
+
+
+
+/* retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+    
+}
+
+
+
+/* ==|== print styles =======================================================
+   ========================================================================== */
+ 
+@media print {
+  * {} /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
