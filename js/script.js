@@ -83,7 +83,7 @@ function initMap(){
     },
     mapElement = document.getElementById('map'),
     map = new google.maps.Map(mapElement, mapOptions),
-    imagetoto = new google.maps.MarkerImage("http://macbook-pro-de-jean-francois-perrault-2.local:5757/layoutImg/pin-googlemap.png", new google.maps.Size(90,50), new google.maps.Point(0,0), new google.maps.Point(45,50));
+    imagetoto = new google.maps.MarkerImage("../layoutImg/pin-googlemap.png", new google.maps.Size(90,50), new google.maps.Point(0,0), new google.maps.Point(45,50));
     
     marker1 = new google.maps.Marker({
         position: new google.maps.LatLng(47.417179, -0.523545),
