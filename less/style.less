@@ -188,25 +188,27 @@ a{
 	h2 {
 		.minion-smbold(2.2em);
 		color: @blanc;
+		line-height: 1.1em;
 	}
 	a{
 		display: inline-block;
 		position: relative;
 		color: #fff;
 		padding: 0 5px 3px;
-		> span{
+		.content-txt{
 			position: absolute;
 			font-size: .5em;
 			left: 0;
 			top: 6px;
 			opacity: 0;
 			.transition(.2s);
+			line-height: 1.5em;
 			.lt-ie9 &{
 				display: none;
 			}
-			span{
-				display: block;
-			}
+		}
+		&.txt-up{
+			margin: 0 0 10px 0;
 		}
 		&:after{
 			content: '';
@@ -225,9 +227,14 @@ a{
 			&:after{
 				height: 115%;
 			}
-			> span{
+			&.txt-up{
+				.content-txt{
+					top: -83%;
+				}
+			}
+			.content-txt{
 				color: #fff;
-				top: 120%;
+				top: 110%;
 				opacity: 1;
 				.lt-ie9 &{
 					display: inline;

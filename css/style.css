@@ -229,7 +229,7 @@ a {
   font-weight: normal;
   font-size: 1em;
   padding: 3px 10px 2px;
-  color: #ffffff;
+  color: #fff;
 }
 #menu a:hover,
 #menu a:focus {
@@ -279,7 +279,7 @@ a {
   display: none;
 }
 #h1chc {
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 #h1chc h1 {
@@ -320,7 +320,8 @@ a {
   font-family: 'Minion Pro SmBd', sans-serif;
   font-weight: normal;
   font-size: 2.2em;
-  color: #ffffff;
+  color: #fff;
+  line-height: 1.1em;
 }
 #header-txt a {
   display: inline-block;
@@ -328,7 +329,7 @@ a {
   color: #fff;
   padding: 0 5px 3px;
 }
-#header-txt a > span {
+#header-txt a .content-txt {
   position: absolute;
   font-size: .5em;
   left: 0;
@@ -338,12 +339,13 @@ a {
   -moz-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
+  line-height: 1.5em;
 }
-.lt-ie9 #header-txt a > span {
+.lt-ie9 #header-txt a .content-txt {
   display: none;
 }
-#header-txt a > span span {
-  display: block;
+#header-txt a.txt-up {
+  margin: 0 0 10px 0;
 }
 #header-txt a:after {
   content: '';
@@ -368,21 +370,25 @@ a {
 #header-txt a:focus:after {
   height: 115%;
 }
-#header-txt a:hover > span,
-#header-txt a:focus > span {
+#header-txt a:hover.txt-up .content-txt,
+#header-txt a:focus.txt-up .content-txt {
+  top: -83%;
+}
+#header-txt a:hover .content-txt,
+#header-txt a:focus .content-txt {
   color: #fff;
-  top: 120%;
+  top: 110%;
   opacity: 1;
 }
-.lt-ie9 #header-txt a:hover > span,
-.lt-ie9 #header-txt a:focus > span {
+.lt-ie9 #header-txt a:hover .content-txt,
+.lt-ie9 #header-txt a:focus .content-txt {
   display: inline;
 }
 #container {
   width: 100%;
   float: right;
   margin-top: 286px;
-  background: #ffffff;
+  background: #fff;
   position: relative;
   z-index: 1;
   padding-bottom: 50px;
@@ -586,7 +592,7 @@ a {
   width: 110%;
 }
 #presta h4 {
-  color: #ffffff;
+  color: #fff;
   font-family: 'proxima_novalight', sans-serif;
   font-weight: normal;
   font-size: 1.2em;
@@ -826,7 +832,7 @@ li#contact .contact-bloc-dessus:focus h4 {
   border: solid 1px #a7c62a;
 }
 li#contact h4 {
-  color: #ffffff;
+  color: #fff;
   font-family: 'proxima_novalight', sans-serif;
   font-weight: normal;
   font-size: 1.2em;
@@ -863,7 +869,7 @@ li#contact:before {
   z-index: 50;
   top: 28px;
   left: 45px;
-  color: #ffffff;
+  color: #fff;
 }
 #management-cp h4,
 #compub-cp h4,
@@ -964,12 +970,12 @@ li#contact:before {
 #social a:hover span,
 #social a:focus span {
   color: #a7c62a;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 #social span {
   background: #a7c62a;
-  color: #ffffff;
-  border: solid 2px #ffffff;
+  color: #fff;
+  border: solid 2px #fff;
   border-radius: 50%;
   padding: 6px;
   margin: 0 13px;
