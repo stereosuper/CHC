@@ -1,92 +1,44 @@
 /* @group import */
 /*@font-face {
-  font-family: 'Minion Pro Bold';
-  src: url('../fonts/MinionPro-Bold.eot');
-  src: url('../fonts/MinionPro-Bold.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/MinionPro-Bold.woff') format('woff'),
-       url('../fonts/MinionPro-Bold.ttf')  format('truetype'),
-       url('../fonts/MinionPro-Bold.svg#d50e19e52400e7ead72aae3dd972b622') format('svg');
-  font-style:   normal;
-  font-weight:  normal;
-}
-
-@font-face {
-  font-family: 'Minion Pro Bold Italic';
-  src: url('../fonts/MinionPro-BoldIt.eot');
-  src: url('../fonts/MinionPro-BoldIt.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/MinionPro-BoldIt.woff') format('woff'),
-       url('../fonts/MinionPro-BoldIt.ttf')  format('truetype'),
-       url('../fonts/MinionPro-BoldIt.svg#39d468e57b0b6224ab111c611732db8e') format('svg');
-  font-style:   normal;
-  font-weight:  normal;
-}
-
-@font-face {
-  font-family: 'Minion Pro Italic';
-  src: url('../fonts/MinionPro-It.eot');
-  src: url('../fonts/MinionPro-It.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/MinionPro-It.woff') format('woff'),
-       url('../fonts/MinionPro-It.ttf')  format('truetype'),
-       url('../fonts/MinionPro-It.svg#4ca7262bde578ad3c2c0c1500f99cba2') format('svg');
-  font-style:   normal;
-  font-weight:  normal;
-}
-
-@font-face {
-  font-family: 'Minion Pro Regular';
-  src: url('../fonts/MinionPro-Regular.eot');
-  src: url('../fonts/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/MinionPro-Regular.woff') format('woff'),
-       url('../fonts/MinionPro-Regular.ttf')  format('truetype'),
-       url('../fonts/MinionPro-Regular.svg#e14324dc900cd012f29ed0264e357058') format('svg');
-  font-style:   normal;
-  font-weight:  normal;
-}*/
-@font-face {
   font-family: 'Minion Pro SmBd';
   src: url('../fonts/MinionPro-Semibold.eot');
-  src: url('../fonts/MinionPro-Semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/MinionPro-Semibold.woff') format('woff'), url('../fonts/MinionPro-Semibold.ttf') format('truetype'), url('../fonts/MinionPro-Semibold.svg#18427bec91eae7311e94400f1590375e') format('svg');
-  font-style: normal;
-  font-weight: normal;
-}
-/*@font-face {
-  font-family: 'Minion Pro SmBd Italic';
-  src: url('../fonts/MinionPro-SemiboldIt.eot');
-  src: url('../fonts/MinionPro-SemiboldIt.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/MinionPro-SemiboldIt.woff') format('woff'),
-       url('../fonts/MinionPro-SemiboldIt.ttf')  format('truetype'),
-       url('../fonts/MinionPro-SemiboldIt.svg#6338b1e8548b36604a01deed751de0ff') format('svg');
+  src: url('../fonts/MinionPro-Semibold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/MinionPro-Semibold.woff') format('woff'),
+       url('../fonts/MinionPro-Semibold.ttf')  format('truetype'),
+       url('../fonts/MinionPro-Semibold.svg#18427bec91eae7311e94400f1590375e') format('svg');
   font-style:   normal;
-  font-weight: normal;
-}*/
-@font-face {
-  font-family: 'proxima_nova_rgbold';
-  src: url('../fonts/proximanova-bold-webfont.eot');
-  src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-bold-webfont.woff') format('woff'), url('../fonts/proximanova-bold-webfont.ttf') format('truetype'), url('../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  font-weight:  normal;
 }
+
 @font-face {
-  font-family: 'proxima_novalight';
-  src: url('../fonts/proximanova-light-webfont.eot');
-  src: url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-light-webfont.woff') format('woff'), url('../fonts/proximanova-light-webfont.ttf') format('truetype'), url('../fonts/proximanova-light-webfont.svg#proxima_novalight') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'proxima_nova_rgbold';
+    src: url('../fonts/proximanova-bold-webfont.eot');
+    src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-bold-webfont.woff') format('woff'),
+         url('../fonts/proximanova-bold-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
-  font-family: 'proxima_nova_rgregular';
-  src: url('../fonts/proximanova-regular-webfont.eot');
-  src: url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-regular-webfont.woff') format('woff'), url('../fonts/proximanova-regular-webfont.ttf') format('truetype'), url('../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'proxima_novalight';
+    src: url('../fonts/proximanova-light-webfont.eot');
+    src: url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-light-webfont.woff') format('woff'),
+         url('../fonts/proximanova-light-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-/*@font-face {
-    font-family: 'proxima_novasemibold';
-    src: url('../fonts/proximanova-semibold-webfont.eot');
-    src: url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/proximanova-semibold-webfont.woff') format('woff'),
-         url('../fonts/proximanova-semibold-webfont.ttf') format('truetype'),
-         url('../fonts/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proximanova-regular-webfont.eot');
+    src: url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-regular-webfont.woff') format('woff'),
+         url('../fonts/proximanova-regular-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }*/
@@ -97,36 +49,6 @@
   font-weight: normal;
   font-style: normal;
 }
-/*.proxima-semibold(@size){
-	font-family: 'proxima_novasemibold', sans-serif;
-	font-weight: normal;
-	font-size: @size;
-}*/
-/*.minion-bold(@size){
-	font-family: 'Minion Pro Bold', sans-serif;
-	font-weight: normal;
-	font-size: @size;
-}
-.minion-bold-ita(@size){
-	font-family: 'Minion Pro Bold Italic', sans-serif;
-	font-weight: normal;
-	font-size: @size;
-}
-.minion-ita(@size){
-	font-family: 'Minion Pro Italic', sans-serif;
-	font-weight: normal;
-	font-size: @size;
-}
-.minion-regular(@size){
-	font-family: 'Minion Pro Regular', sans-serif;
-	font-weight: normal;
-	font-size: @size;
-}*/
-/*.minion-smbold-ita(@size){
-	font-family: 'Minion Pro SmBd Italic', sans-serif;
-	font-weight: normal;
-	font-size: @size;
-}*/
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: 'chc';
@@ -190,8 +112,9 @@ body.on {
   background-image: url('../layoutImg/hp-printemps-bg-header.png');
 }
 .bold {
-  font-family: 'proxima_nova_rgbold', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 1em;
 }
 li {
@@ -225,11 +148,12 @@ a {
   padding: 0 0 0 5px;
 }
 #menu a {
-  font-family: 'proxima_novalight', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 1em;
   padding: 3px 10px 2px;
-  color: #fff;
+  color: #ffffff;
 }
 #menu a:hover,
 #menu a:focus {
@@ -279,13 +203,14 @@ a {
   display: none;
 }
 #h1chc {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 #h1chc h1 {
   transition: font 0.2s ease-out, 0.3s ease-out;
-  font-family: 'Minion Pro SmBd', sans-serif;
-  font-weight: normal;
+  font-family: 'minion-pro', sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 2.1em;
   letter-spacing: 0.1em;
   line-height: 0.9em;
@@ -301,8 +226,9 @@ a {
   padding-top: 10px;
 }
 #h1chc h2 {
-  font-family: 'proxima_nova_rgregular', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 0.7em;
   margin-top: -15px;
   display: block;
@@ -317,10 +243,11 @@ a {
   background: url('../layoutImg/hp-printemps-bg-header.png') fixed repeat-x;
 }
 #header-txt h2 {
-  font-family: 'Minion Pro SmBd', sans-serif;
-  font-weight: normal;
+  font-family: 'minion-pro', sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 2.2em;
-  color: #fff;
+  color: #ffffff;
   line-height: 1.1em;
 }
 #header-txt a {
@@ -388,7 +315,7 @@ a {
   width: 100%;
   float: right;
   margin-top: 286px;
-  background: #fff;
+  background: #ffffff;
   position: relative;
   z-index: 1;
   padding-bottom: 50px;
@@ -400,8 +327,9 @@ a {
   margin-top: 42px;
 }
 #container p {
-  font-family: 'proxima_nova_rgregular', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1em;
   margin-left: -30px;
   color: #535353;
@@ -411,8 +339,9 @@ a {
   padding: 0 0 0 55px;
 }
 #container h3 {
-  font-family: 'Minion Pro SmBd', sans-serif;
-  font-weight: normal;
+  font-family: 'minion-pro', sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 2.2em;
   color: #16546e;
 }
@@ -500,8 +429,9 @@ a {
 }
 #big-btn span {
   display: block;
-  font-family: 'proxima_novalight', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 0.95em;
 }
 #big-btn .link {
@@ -592,9 +522,10 @@ a {
   width: 110%;
 }
 #presta h4 {
-  color: #fff;
-  font-family: 'proxima_novalight', sans-serif;
-  font-weight: normal;
+  color: #ffffff;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 1.2em;
   vertical-align: middle;
   -webkit-transition: 0.15s;
@@ -615,8 +546,9 @@ a {
   padding: 0;
   margin: 0 0 5px 30px;
   width: 91%;
-  font-family: 'proxima_nova_rgbold', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 1em;
 }
 #presta li {
@@ -629,8 +561,9 @@ a {
 }
 #presta li:before {
   content: "〉 ";
-  font-family: 'proxima_nova_rgregular', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 2.5em;
   position: absolute;
   z-index: 50;
@@ -699,8 +632,9 @@ a {
   background: url('../layoutImg/puce-printemps-grande.png') no-repeat -25px 13px;
   margin: 0 0 0 30px;
   padding: 0 0 0 30px;
-  font-family: 'proxima_nova_rgregular', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1em;
   color: #535353;
   width: 85%;
@@ -755,8 +689,9 @@ a {
 }
 #missions h4 {
   color: #fff;
-  font-family: 'proxima_novalight', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 1.2em;
   margin: 35px 0 0;
   padding: 0 0 0 35px;
@@ -795,8 +730,9 @@ a {
   background: url('../layoutImg/puce-printemps-grande.png') no-repeat -25px 13px;
   margin: 0 0 0 30px;
   padding: 0 0 0 30px;
-  font-family: 'proxima_nova_rgregular', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1em;
   color: #535353;
   width: 85%;
@@ -805,8 +741,9 @@ a {
   padding: 20px 0 0;
   margin-left: 30px;
   width: 91%;
-  font-family: 'proxima_nova_rgbold', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 1em;
 }
 li#contact {
@@ -832,9 +769,10 @@ li#contact .contact-bloc-dessus:focus h4 {
   border: solid 1px #a7c62a;
 }
 li#contact h4 {
-  color: #fff;
-  font-family: 'proxima_novalight', sans-serif;
-  font-weight: normal;
+  color: #ffffff;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 1.2em;
   margin: 0;
   padding-left: 35px;
@@ -862,14 +800,15 @@ li#contact .contact-bloc span {
 }
 li#contact:before {
   content: "> ";
-  font-family: 'proxima_nova_rgregular', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 0.8em;
   position: absolute;
   z-index: 50;
   top: 28px;
   left: 45px;
-  color: #fff;
+  color: #ffffff;
 }
 #management-cp h4,
 #compub-cp h4,
@@ -882,8 +821,9 @@ li#contact:before {
   padding: 0;
   margin: 0 0 5px 30px;
   width: 91%;
-  font-family: 'proxima_nova_rgbold', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 1em;
 }
 #compub-cp .presta-bloc-dessus,
@@ -918,8 +858,9 @@ li#contact:before {
   text-align: center;
 }
 #sidebar li h4 {
-  font-family: 'proxima_nova_rgregular', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 0.8em;
   color: #919684;
   width: 77%;
@@ -970,12 +911,12 @@ li#contact:before {
 #social a:hover span,
 #social a:focus span {
   color: #a7c62a;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 #social span {
   background: #a7c62a;
-  color: #fff;
-  border: solid 2px #fff;
+  color: #ffffff;
+  border: solid 2px #ffffff;
   border-radius: 50%;
   padding: 6px;
   margin: 0 13px;
@@ -988,8 +929,9 @@ li#contact:before {
   display: inline-block;
 }
 #social p {
-  font-family: 'proxima_nova_rgregular', sans-serif;
-  font-weight: normal;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 0.7em;
   margin-top: 15px;
 }
@@ -1156,8 +1098,9 @@ li#contact:before {
     padding-bottom: 50px;
   }
   #container h3 {
-    font-family: 'Minion Pro SmBd', sans-serif;
-    font-weight: normal;
+    font-family: 'minion-pro', sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 1.9em;
   }
   #container > ul {
@@ -1263,8 +1206,9 @@ li#contact:before {
     padding: 15px 0;
   }
   #menu a {
-    font-family: 'proxima_nova_rgregular', sans-serif;
-    font-weight: normal;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1.2em;
     display: block;
   }
@@ -1293,8 +1237,9 @@ li#contact:before {
     padding: 0 0 0 35px;
   }
   #container h3 {
-    font-family: 'Minion Pro SmBd', sans-serif;
-    font-weight: normal;
+    font-family: 'minion-pro', sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 1.8em;
   }
   .home #container {
