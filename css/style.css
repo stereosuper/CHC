@@ -116,6 +116,8 @@ body.on {
   font-weight: 700;
   font-style: normal;
   font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 li {
   list-style: none;
@@ -434,6 +436,14 @@ a {
   font-style: normal;
   font-size: 0.95em;
 }
+#big-btn .txt {
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.95em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 #big-btn .link {
   font-size: 1.2em;
   position: absolute;
@@ -550,6 +560,8 @@ a {
   font-weight: 700;
   font-style: normal;
   font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 #presta li {
   width: 100%;
@@ -745,6 +757,8 @@ a {
   font-weight: 700;
   font-style: normal;
   font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 li#contact {
   position: relative;
@@ -825,6 +839,8 @@ li#contact:before {
   font-weight: 700;
   font-style: normal;
   font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 #compub-cp .presta-bloc-dessus,
 #comeluscitoyens-cp .presta-bloc-dessus {
