@@ -24,7 +24,7 @@ function fixBloc(id_string, scrollBegin, scrollEnd){
 
 function scrollBehavior(){
 	fixBloc(".no-touch #sidebar", 200, 40000);
-	fixBloc(".no-touch .home #sidebar", 580, 40000);
+	fixBloc(".no-touch .home #sidebar", 730, 40000);
 	fixBloc(".no-touch #avatar", 200, 40000);
 }
 

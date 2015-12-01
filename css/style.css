@@ -144,7 +144,7 @@ a {
 }
 #menu li {
   float: left;
-  background: #16546e;
+  background: #175874;
 }
 #menu li:first-child {
   padding: 0 0 0 5px;
@@ -322,11 +322,43 @@ a {
   z-index: 1;
   padding-bottom: 50px;
 }
-#container ul {
+#container > ul,
+#container > div {
   padding: 0;
   margin-left: 36%;
   width: 39%;
   margin-top: 42px;
+}
+#container > div {
+  min-height: 450px;
+  padding: 0 0 0 30px;
+}
+#container > div p {
+  margin-left: 0;
+}
+#container > div li {
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+  color: #535353;
+  background: none;
+  padding: 0;
+  list-style: disc;
+}
+#container .list {
+  margin-left: -30px;
+}
+#container .list li {
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+  color: #535353;
+  background: none;
+  padding: 0;
+  list-style: disc;
+  display: list-item !important;
 }
 #container p {
   font-family: 'proxima-nova', sans-serif;
@@ -355,10 +387,10 @@ a {
   background-position: 0 62px;
 }
 .home #container {
-  margin-top: 615px;
+  margin-top: 760px;
 }
 #big-btn {
-  height: 350px;
+  height: 500px;
   background: #fff;
   position: absolute;
   width: 57%;
@@ -385,20 +417,22 @@ a {
 }
 #big-btn li.bleu a {
   background: #0c7dab;
-}
-#big-btn li.bleu a:hover .link,
-#big-btn li.bleu a:focus .link {
-  color: #0c7dab;
+  /*&:hover, &:focus{
+					.link{
+						color: @color-button;
+					}
+				}*/
 }
 #big-btn li.bleu a:before {
   background: #0c7dab;
 }
 #big-btn li.orange a {
   background: #ee854d;
-}
-#big-btn li.orange a:hover .link,
-#big-btn li.orange a:focus .link {
-  color: #ee854d;
+  /*&:hover, &:focus{
+					.link{
+						color: #ee854d;
+					}
+				}*/
 }
 #big-btn li.orange a:before {
   background: #ee854d;
@@ -406,10 +440,10 @@ a {
 #big-btn a {
   display: block;
   position: relative;
-  padding: 40px 30px;
+  padding: 30px 20px;
   background: #a7c62a;
   box-sizing: border-box;
-  min-height: 275px;
+  min-height: 370px;
   color: #fff;
 }
 #big-btn a:before {
@@ -426,8 +460,7 @@ a {
 }
 #big-btn a:hover .link,
 #big-btn a:focus .link {
-  background: #fff;
-  color: #a7c62a;
+  opacity: 0.7;
 }
 #big-btn span {
   display: block;
@@ -444,18 +477,22 @@ a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#big-btn strong {
+  display: block;
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0 0 10px;
+}
 #big-btn .link {
-  font-size: 1.2em;
-  position: absolute;
   width: 180px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: 40px;
-  border: 1px solid;
-  text-transform: uppercase;
-  height: 40px;
-  line-height: 43px;
+  /*left: 0;
+		right: 0;*/
+  margin: 15px auto 0;
+  text-decoration: underline;
   transition: 0.3s ease-in-out;
 }
 #big-btn .link:before {
@@ -464,8 +501,6 @@ a {
   display: inline-block;
   vertical-align: top;
   margin: 0 5px 0 0;
-  height: 40px;
-  line-height: 38px;
 }
 #presta {
   width: 100%;
@@ -922,7 +957,7 @@ li#contact:before {
   border-bottom: solid 1px #e1e1e1;
 }
 .home #sidebar {
-  top: 580px;
+  top: 730px;
 }
 #social p {
   color: #0c7dab;
@@ -1016,7 +1051,8 @@ li#contact:before {
   #menu ul {
     padding-left: 41%;
   }
-  #container > ul {
+  #container > ul,
+  #container > div {
     margin-left: 38%;
   }
   #presta li#mettre .presta-bloc .presta-bloc-dessus #group h4 {
@@ -1030,7 +1066,8 @@ li#contact:before {
   #menu ul {
     padding-left: 45%;
   }
-  #container > ul {
+  #container > ul,
+  #container > div {
     margin-left: 41%;
     width: 45%;
   }
@@ -1043,12 +1080,16 @@ li#contact:before {
   #big-btn {
     width: 67%;
   }
+  #big-btn a {
+    padding: 30px 15px;
+  }
 }
 @media (max-width: 1150px) {
   #menu ul {
     padding-left: 38%;
   }
-  #container > ul {
+  #container > ul,
+  #container > div {
     margin-left: 34%;
     width: 50%;
   }
@@ -1080,7 +1121,8 @@ li#contact:before {
   #menu ul {
     padding-left: 38%;
   }
-  #container > ul {
+  #container > ul,
+  #container > div {
     margin-left: 34%;
     width: 59%;
   }
@@ -1122,7 +1164,8 @@ li#contact:before {
     font-style: normal;
     font-size: 1.9em;
   }
-  #container > ul {
+  #container > ul,
+  #container > div {
     margin-left: 30%;
   }
   .page #container > ul > li {
@@ -1245,15 +1288,21 @@ li#contact:before {
   .page #container {
     margin: 120px 0 45px;
   }
-  #container > ul {
+  #container > ul,
+  #container > div {
     margin-left: 4%;
     width: 91%;
     margin-top: 30px;
   }
-  #container > ul > li {
+  #container > ul > li,
+  #container > div > li {
     background-size: 25px 1px;
     background-position: 0 23px;
     padding: 0 0 0 35px;
+  }
+  #container > div {
+    padding: 0;
+    min-height: initial;
   }
   #container h3 {
     font-family: 'minion-pro', sans-serif;

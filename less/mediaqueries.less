@@ -10,7 +10,7 @@
 		}
 	}
 	#container {
-		> ul {
+		> ul, > div{
 			margin-left: 38%;
 		}
 	}
@@ -38,7 +38,7 @@
 		}
 	}
 	#container {
-		> ul {
+		> ul, > div{
 			margin-left: 41%;
 			width: 45%;
 		}
@@ -53,6 +53,9 @@
 	}
 	#big-btn{
 		width: 67%;
+		a{
+			padding: 30px 15px;
+		}
 	}
 }
 
@@ -63,7 +66,7 @@
 		}
 	}
 	#container {
-		> ul {
+		> ul, > div{
 			margin-left: 34%;
 			width: 50%;
 		}
@@ -105,7 +108,7 @@
 		}
 	}
 	#container {
-		> ul {
+		> ul, > div{
 			margin-left: 34%;
 			width: 59%;
 		}
@@ -151,7 +154,7 @@
 		h3 {
 			.minion-smbold(1.9em);
 		}
-		> ul {
+		> ul, > div{
 			margin-left: 30%;
 		}
 		.page &{
@@ -295,7 +298,7 @@
 		.page &{
 			margin: 120px 0 45px;
 		}
-		> ul {
+		> ul, > div{
 			margin-left: 4%;
 			width: 91%;
 			margin-top: 30px;
@@ -303,8 +306,11 @@
 				background-size: 25px 1px;
 				background-position: 0 23px;
 				padding: 0 0 0 35px;
-			}
-			
+			}	
+		}
+		> div{
+			padding: 0;
+			min-height: initial;
 		}
 		h3 {
 			.minion-smbold(1.8em);
