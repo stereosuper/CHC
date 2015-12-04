@@ -417,22 +417,20 @@ a {
 }
 #big-btn li.bleu a {
   background: #0c7dab;
-  /*&:hover, &:focus{
-					.link{
-						color: @color-button;
-					}
-				}*/
+}
+#big-btn li.bleu a:hover .link,
+#big-btn li.bleu a:focus .link {
+  color: #0c7dab;
 }
 #big-btn li.bleu a:before {
   background: #0c7dab;
 }
 #big-btn li.orange a {
   background: #ee854d;
-  /*&:hover, &:focus{
-					.link{
-						color: #ee854d;
-					}
-				}*/
+}
+#big-btn li.orange a:hover .link,
+#big-btn li.orange a:focus .link {
+  color: #ee854d;
 }
 #big-btn li.orange a:before {
   background: #ee854d;
@@ -443,7 +441,7 @@ a {
   padding: 30px 20px;
   background: #a7c62a;
   box-sizing: border-box;
-  min-height: 370px;
+  min-height: 430px;
   color: #fff;
 }
 #big-btn a:before {
@@ -460,7 +458,8 @@ a {
 }
 #big-btn a:hover .link,
 #big-btn a:focus .link {
-  opacity: 0.7;
+  background: #fff;
+  color: #a7c62a;
 }
 #big-btn span {
   display: block;
@@ -488,11 +487,17 @@ a {
   margin: 0 0 10px;
 }
 #big-btn .link {
+  font-size: 1.2em;
+  position: absolute;
   width: 180px;
-  /*left: 0;
-		right: 0;*/
-  margin: 15px auto 0;
-  text-decoration: underline;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 30px;
+  border: 1px solid;
+  text-transform: uppercase;
+  height: 40px;
+  line-height: 43px;
   transition: 0.3s ease-in-out;
 }
 #big-btn .link:before {
@@ -501,6 +506,8 @@ a {
   display: inline-block;
   vertical-align: top;
   margin: 0 5px 0 0;
+  height: 40px;
+  line-height: 38px;
 }
 #presta {
   width: 100%;

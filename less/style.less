@@ -337,11 +337,11 @@ a{
 		&.bleu{
 			a{
 				background: @color-button;
-				/*&:hover, &:focus{
+				&:hover, &:focus{
 					.link{
 						color: @color-button;
 					}
-				}*/
+				}
 				&:before{
 					background: @color-button;
 				}
@@ -350,11 +350,11 @@ a{
 		&.orange{
 			a{
 				background: #ee854d;
-				/*&:hover, &:focus{
+				&:hover, &:focus{
 					.link{
 						color: #ee854d;
 					}
-				}*/
+				}
 				&:before{
 					background: #ee854d;
 				}
@@ -367,7 +367,7 @@ a{
 		padding: 30px 20px;
 		background: @color-soc;
 		box-sizing: border-box;
-		min-height: 370px;
+		min-height: 430px;
 		color: #fff;
 		&:before{
 			content: '';
@@ -383,9 +383,8 @@ a{
 		}
 		&:hover, &:focus{
 			.link{
-				//background: #fff;
-				//color: @color-soc;
-				opacity: .7
+				background: #fff;
+				color: @color-soc;
 			}
 		}
 	}
@@ -402,18 +401,17 @@ a{
 		margin: 0 0 10px;
 	}
 	.link{
-		//font-size: 1.2em;
-		//position: absolute;
+		font-size: 1.2em;
+		position: absolute;
 		width: 180px;
-		/*left: 0;
-		right: 0;*/
-		margin: 15px auto 0;
-		//bottom: 40px;
-		//border: 1px solid;
-		//text-transform: uppercase;
-		//height: 40px;
-		//line-height: 43px;
-		text-decoration: underline;
+		left: 0;
+		right: 0;
+		margin: auto;
+		bottom: 30px;
+		border: 1px solid;
+		text-transform: uppercase;
+		height: 40px;
+		line-height: 43px;
 		transition: .3s ease-in-out;
 		&:before{
 			content: '›';
@@ -421,8 +419,8 @@ a{
 			display: inline-block;
 			vertical-align: top;
 			margin: 0 5px 0 0;
-			//height: 40px;
-			//line-height: 38px;
+			height: 40px;
+			line-height: 38px;
 		}
 	}
 }
