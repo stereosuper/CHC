@@ -1297,6 +1297,12 @@ body {
   #header-txt {
     left: 40%;
   }
+  .home #container {
+    margin-top: 770px;
+  }
+  #big-btn a {
+    min-height: 400px;
+  }
 }
 @media (max-width: 1430px) {
   #menu ul {
@@ -1317,6 +1323,7 @@ body {
     width: 67%;
   }
   #big-btn a {
+    min-height: 430px;
     padding: 30px 15px;
   }
 }

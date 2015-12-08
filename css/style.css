@@ -387,7 +387,7 @@ a {
   background-position: 0 62px;
 }
 .home #container {
-  margin-top: 760px;
+  margin-top: 700px;
 }
 #big-btn {
   height: 500px;
@@ -441,7 +441,7 @@ a {
   padding: 30px 20px;
   background: #a7c62a;
   box-sizing: border-box;
-  min-height: 430px;
+  min-height: 350px;
   color: #fff;
 }
 #big-btn a:before {
@@ -964,7 +964,7 @@ li#contact:before {
   border-bottom: solid 1px #e1e1e1;
 }
 .home #sidebar {
-  top: 730px;
+  top: 670px;
 }
 #social p {
   color: #0c7dab;
@@ -1068,6 +1068,12 @@ li#contact:before {
   #header-txt {
     left: 40%;
   }
+  .home #container {
+    margin-top: 770px;
+  }
+  #big-btn a {
+    min-height: 400px;
+  }
 }
 @media (max-width: 1430px) {
   #menu ul {
@@ -1088,6 +1094,7 @@ li#contact:before {
     width: 67%;
   }
   #big-btn a {
+    min-height: 430px;
     padding: 30px 15px;
   }
 }
